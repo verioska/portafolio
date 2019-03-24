@@ -150,6 +150,12 @@ a:nth-child(4) {
   Left: 13px;
   transition: 1s;
 }
+#github{
+  color: white;
+  font-size: 85px;
+  margin-top: 2671px;
+  text-align: center;
+}
    #section1,#section2,#section3,#section4,#section5{
     padding-top: 166%;
   }
