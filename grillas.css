@@ -1,0 +1,157 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row:before, .row:after{
+    content: " ";
+    display: table;
+}
+.row:after{
+    clear: both
+}
+[class*="col-"]{
+    min-height: 7px;
+    padding:12px;
+    max-width: 100%;
+}
+.col-1 {
+    /* (1 / 12) x 100 */
+    width: 8.333333%;
+  } 
+  
+  .col-2 {
+    /* (2 / 12) x 100 */
+    width: 16.666667%;
+  } 
+  
+  .col-3 {
+    /* (3 / 12) x 100 */
+    width: 25%;
+  } 
+  
+  .col-4 {
+    /* (4 / 12) x 100 */
+    width: 33.333333%;
+  }
+  
+  .col-5 {
+    /* (5 / 12) x 100 */
+    width: 41.666667%;
+  }
+  
+  .col-6 {
+    /* (6 / 12) x 100 */
+    width: 50%;
+  } 
+  
+  .col-7 {
+    /* (7 / 12) x 100 */
+    width: 58.333333%;
+  }
+  
+  .col-8 {
+    /* (8 / 12) x 100 */
+    width: 66.666667%;
+  }
+  
+  .col-9 {
+    /* (9 / 12) x 100 */
+    width: 75%;
+  }
+  
+  .col-10 {
+    /* (10 / 12) x 100 */
+    width: 83.333333%;
+  }
+  
+  .col-11 {
+    /* (11 / 12) x 100 */
+    width: 91.666667%;
+  }
+  
+  .col-12 {
+    /* (12 / 12) x 100 */
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+   }
+   .toggle{
+    background-color: #ffab52;
+    height: 47px;
+    width: 47px;
+    border-radius: 50px;
+    position: absolute;
+    margin: auto;
+    top: -439px;
+    bottom: 0;
+    Left: 240px;
+    right: 0;
+    z-index: 1;
+}
+.menu{
+  background-color: white;
+    height: 58px;
+    width: 58px;
+    transform: scale(0);
+    border-radius: 50px;
+    position: absolute;
+    margin: auto;
+    top: -442px;
+    bottom: 0;
+    Left: 230px;
+    right: 0;
+    z-index: 0;
+ 
+}
+a{
+  display: inline-block;
+  position: absolute;
+  color:#ffab52;
+  font-size: 11px;
+}
+a:nth-child(1) {
+  top: 4px;
+  Left: 25px;
+ 
+}
+a:nth-child(2) {
+  top: 23px;
+  Left: 46px;
+  
+}
+a:nth-child(3) {
+  top: 44px;
+  Left: 25px;
+  
+}
+a:nth-child(4) {
+  top: 23px;
+  Left: 5px;
+  
+}
+
+#bar{
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 14px;
+  Left: 13px;
+  transition: 1s;
+}
+   #section1,#section2,#section3,#section4,#section5{
+    padding-top: 166%;
+  }
+ 
+  }
