@@ -17,7 +17,13 @@
    #section2 {
     background-color: #ffab52;
   }
-  
+  #infoMe{
+    font-size: 1.4em;
+    font-family: 'Gentium Basic', serif;
+    margin-left: 600px; 
+    text-align: justify;
+    padding-top: 5%;
+  }
   #section3{
     background-color: #9c55a5;
   }
