@@ -1,61 +1,60 @@
-/* body{
-    background-color: #2ab8ac;
-} */
 
   #section1,#section2,#section3,#section4,#section5{
-    padding-top: 50%;
-  }
-  #section2,#section3,#section4,#section5{
-      display: none;
+    padding-top: 49%;
   }
  
-  /* .textMe {
-    font-size: 22px;
-    padding-top: 2%;
-  } */
-  
+   #section2,#section3,#section4,#section5{
+      display: none;
+  }
+   
   #section1{
-    background-color: #2ab8ac;
+    /* background-color: #2ab8ac; */
+    background: url(yo2.jpg) no-repeat;
+    
+  }
+  #me{
+    width: 406px;
+    height: 629px;
+    margin-top: -324px;
+    margin-left: 251px;
   }
    #section2 {
+     background: url(fondo.jpeg);
+     opacity:0.8;
     /* background-color: #ffab52; */
-    background: url(fondo.jpeg);
-    opacity:0.8;
   }
   #infoMe{
     font-size: 1.4em;
-    font-family: 'Patrick Hand', cursive;
-    margin-left: 600px; 
+    font-family: 'Questrial', sans-serif;
+    margin-left: 603px;
     text-align: justify;
-    padding-top: 5%;
-    /* color: rgb(51, 49, 49); */
+    padding-top: 4%;
     color: rgb(41, 39, 39);
-  }
+    }
+    #info{
+     font-size: 3em;
+     color: white;
+     margin-left: 403px;
+     margin-top: -564px;
+     text-align: center;
+     /* font-family: 'Crimson Text', serif; */
+     font-family: 'Bree Serif', serif;
+   }
   #section3{
-    background-color: #9c55a5;
+    background-color: #9c55a5; 
+    
   }
  #section4{
      background-color: #57cadd;
  }
     
  #section5{
-     background-color: #ffab52;
+     background-color: #2ab8ac;
  }
 
- #info{
-  font-size: 3em;
-  color: white;
-  margin-left: 403px;
-  margin-top: -564px;
-  text-align: center;
-  /* font-family: 'Crimson Text', serif; */
-  font-family: 'Patrick Hand', cursive;
-
- }
 
 .toggle{
-
-    background-color:#ffab52;
+   background-color:#ffab52;
     height: 50px;
     width: 50px;
     border-radius: 50px;
@@ -66,7 +65,6 @@
     left:1115px;
     right: 0;
     z-index: 3;
-  
 }
 #bar{
   font-size: 21px;
@@ -78,7 +76,7 @@
   width: 28px;
 }
 
- .menu{
+.menu{
     background-color: white;
     height: 70px;
     width: 70px;
@@ -93,33 +91,33 @@
     z-index: 2;
     
 } 
-  a{
+  .a{
     display: inline-block !;
     position: absolute;
     color:#ffab52;
     font-size: 13px;
 }
-a:nth-child(1) {
+.a:nth-child(1) {
     top: 5px;
     Left: 30px;
    
 }
-a:nth-child(2) {
+.a:nth-child(2) {
     top: 22px;
     Left: 54px;
     
 }
-a:nth-child(3) {
+.a:nth-child(3) {
     top: 49px;
     Left: 43px;
     
 }
-a:nth-child(4) {
+.a:nth-child(4) {
     top: 48px;
     Left: 15px;
     
 }
-a:nth-child(5) {
+.a:nth-child(5) {
     top: 22px;
     Left: 7px;
     
@@ -131,64 +129,130 @@ a:nth-child(5) {
     color:white;
     margin-top: -590px;
     text-align: center;
+    font-family: 'Bree Serif', serif;
 }
 .col-sm-4.col-md-3{
     color:white;
     font-size:100px;
     margin-top:60px;
     text-align: center;
+   
 }
-#github{
+#iconContact{
     color:white;
     font-size:100px;
-    margin-top:2900px;
+    margin-top:160px;
     text-align: center;
 }
-
+#lol2{
+  height: 269px;
+  width: 438px;
+  margin-top: 63px;
+  margin-left: 80px;
+   
+}
+#detalles{
+  margin-left: 70px;
+}
+#sabores{
+  margin-left: 78px;
+  height: 291px;
+  width: 286px;
+  margin-top: 27px;
+}
+#vitrina{
+  height: 291px;
+  width: 286px;
+  margin-top: 27px;
+  margin-left: 68%;
+}
 
 .animated.infinite.flash  {
     animation-duration : 1 s ;
  }
  
+ .swing-in-left-bck {
+	-webkit-animation: swing-in-left-bck 2.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: swing-in-left-bck 2.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
 
- .fade-in-fwd {
-	-webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+ @-webkit-keyframes swing-in-left-bck {
+  0% {
+    -webkit-transform: rotateY(-70deg);
+            transform: rotateY(-70deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    opacity: 1;
+  }
+} 
+.roll-in-right {
+	-webkit-animation: roll-in-right 1s ease-out both;
+	        animation: roll-in-right 1s ease-out both;
+}
+
+
+ @-webkit-keyframes roll-in-right {
+  0% {
+    -webkit-transform: translateX(800px) rotate(540deg);
+            transform: translateX(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.scale-in-ver-bottom {
+	-webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 /* ----------------------------------------------
- * Generated by Animista on 2019-3-25 23:14:50
+ * Generated by Animista on 2019-4-1 18:23:23
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
 /**
  * ----------------------------------------
- * animation fade-in-fwd
+ * animation scale-in-ver-bottom
  * ----------------------------------------
  */
- @-webkit-keyframes fade-in-fwd {
-    0% {
-      -webkit-transform: translateZ(-80px);
-              transform: translateZ(-80px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
+ @-webkit-keyframes scale-in-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
   }
-  @keyframes fade-in-fwd {
-    0% {
-      -webkit-transform: translateZ(-80px);
-              transform: translateZ(-80px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
   }
-  
-  
-  
+}
+@keyframes scale-in-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+}

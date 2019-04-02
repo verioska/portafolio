@@ -114,29 +114,29 @@
   right: 0;
   z-index: 2;
 }
-a{
+.a{
   display: inline-block;
   position: absolute;
   color:#ffab52;
   font-size: 11px;
 }
-a:nth-child(1) {
+.a:nth-child(1) {
   top: 4px;
   Left: 27px;
 }
-a:nth-child(2) {
+.a:nth-child(2) {
   top: 10px;
   Left: 47px;
 }
-a:nth-child(3) {
+.a:nth-child(3) {
   top: 28px;
   Left: 50px;
 }
-a:nth-child(4) {
+.a:nth-child(4) {
   top: 29px;
   Left: 5px;
 }
-a:nth-child(5) {
+.a:nth-child(5) {
   
   top: 12px;
   Left: 9px;
@@ -151,12 +151,7 @@ a:nth-child(5) {
     transition: 1s;
     z-index: 3;
 }
-#github{
-  color: white;
-  font-size: 85px;
-  margin-top: 2671px;
-  text-align: center;
-}
+
 #infoMe{
   font-size: 1.4em;
   font-family: 'Gentium Basic', serif;
@@ -197,6 +192,14 @@ a:nth-child(5) {
   text-align: center;
   padding: 59px;
 }
-
+#iconSkills{
+  padding-top: 10%;
+}
+#iconContact{
+  color:white;
+  font-size:100px;
+  margin-top:63px;
+  text-align: center;
+}
  
   }
