@@ -1,13 +1,3 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.fixed-action-btn');
-//     var instances = M.FloatingActionButton.init(elems, options);
-//   });
-//   document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.fixed-action-btn');
-//     var instances = M.FloatingActionButton.init(elems, {
-//       toolbarEnabled: true
-//     });
-//   })
 
 let i=0;
 document.getElementById("toggle").addEventListener("click", function(){
@@ -71,4 +61,5 @@ document.getElementById("mail").addEventListener("click", function(){
     document.getElementById("section1").style.display="none";
     document.getElementById("section3").style.display="none";
 })
+
 

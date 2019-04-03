@@ -1,71 +1,80 @@
-
-  #section1,#section2,#section3,#section4,#section5{
-    padding-top: 49%;
-  }
+#section1,#section2,#section3,#section4,#section5{
+  padding-top: 49%;
+}
  
-   #section2,#section3,#section4,#section5{
-      display: none;
-  }
+#section2,#section3,#section4,#section5{
+  display: none;
+}
    
-  #section1{
-    /* background-color: #2ab8ac; */
-    background: url(yo2.jpg) no-repeat;
-    
-  }
-  #me{
-    width: 406px;
-    height: 629px;
-    margin-top: -324px;
-    margin-left: 251px;
-  }
-   #section2 {
-     background: url(fondo.jpeg);
-     opacity:0.8;
-    /* background-color: #ffab52; */
-  }
-  #infoMe{
-    font-size: 1.4em;
-    font-family: 'Questrial', sans-serif;
-    margin-left: 603px;
-    text-align: justify;
-    padding-top: 4%;
-    color: rgb(41, 39, 39);
-    }
-    #info{
-     font-size: 3em;
-     color: white;
-     margin-left: 403px;
-     margin-top: -564px;
-     text-align: center;
-     /* font-family: 'Crimson Text', serif; */
-     font-family: 'Bree Serif', serif;
-   }
-  #section3{
-    background-color: #9c55a5; 
-    
-  }
- #section4{
-     background-color: #57cadd;
- }
-    
- #section5{
-     background-color: #2ab8ac;
- }
+#section1{
+  background: url(intento82.png) ;
+  background-size: cover; 
+  max-width: 100%;
+  height: 80%;
+  opacity: 0.8;
+} 
+  
+.contenedor {
+  margin: auto;
+  display: table;
+}
 
+#me{
+ width: 406px;
+ height: 629px;
+ margin-top: -324px;
+ margin-left: 251px;
+}
+
+#section2 {
+  background: url(fondo.jpeg);
+  opacity:0.8;
+}
+  
+#infoMe{
+  font-size: 1.4em;
+  font-family: 'Questrial', sans-serif;
+  margin-left: 603px;
+  text-align: justify;
+  padding-top: 4%;
+  color: rgb(41, 39, 39);
+}
+
+#info{
+  font-size: 3em;
+  color: white;
+  margin-left: 403px;
+  margin-top: -564px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+#section3{
+  background-color: #9c55a5; 
+}
+
+#section4{
+  background-color: #57cadd;
+}
+    
+#section5{
+  background-color: #2ab8ac;
+}
 
 .toggle{
-   background-color:#ffab52;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    position: fixed;
-    margin: auto;
-    top: -440px;
-    bottom: 0;
-    left:1115px;
-    right: 0;
-    z-index: 3;
+  background-color:#ffab52;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: fixed;
+  margin: auto;
+  top: -440px;
+  bottom: 0;
+  left:1115px;
+  right: 0;
+  z-index: 3;
 }
+
 #bar{
   font-size: 21px;
   position: absolute;
@@ -77,89 +86,93 @@
 }
 
 .menu{
-    background-color: white;
-    height: 70px;
-    width: 70px;
-    transform: scale(0);
-    border-radius: 50px;
-    position: fixed;
-    margin: auto;
-    top: -442px;
-    bottom: 0;
-    Left: 1105px;
-    right: 0;
-    z-index: 2;
-    
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  transform: scale(0);
+  border-radius: 50px;
+  position: fixed;
+  margin: auto;
+  top: -442px;
+  bottom: 0;
+  Left: 1105px;
+  right: 0;
+  z-index: 2;
 } 
-  .a{
-    display: inline-block !;
-    position: absolute;
-    color:#ffab52;
-    font-size: 13px;
+
+.a{
+  display: inline-block !;
+  position: absolute;
+  color:#ffab52;
+  font-size: 13px;
 }
+
 .a:nth-child(1) {
-    top: 5px;
-    Left: 30px;
-   
+  top: 5px;
+  Left: 30px;
 }
+
 .a:nth-child(2) {
-    top: 22px;
-    Left: 54px;
-    
+  top: 22px;
+  Left: 54px;
 }
+
 .a:nth-child(3) {
-    top: 49px;
-    Left: 43px;
-    
+  top: 49px;
+  Left: 43px;
 }
+
 .a:nth-child(4) {
-    top: 48px;
-    Left: 15px;
-    
+  top: 48px;
+  Left: 15px;
 }
+
 .a:nth-child(5) {
-    top: 22px;
-    Left: 7px;
-    
+  top: 22px;
+  Left: 7px;
 }  
+
 /* conocimientos     */
 .skills,.projects,.contact{
-    
-    font-size: 3em;
-    color:white;
-    margin-top: -590px;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
+  font-size: 3em;
+  color:white;
+  margin-top: -590px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
 }
+
 .col-sm-4.col-md-3{
     color:white;
     font-size:100px;
     margin-top:60px;
     text-align: center;
-   
 }
+
 #iconContact{
-    color:white;
-    font-size:100px;
-    margin-top:160px;
-    text-align: center;
+  color:white;
+  font-size:100px;
+  margin-top:160px;
+  text-align: center;
 }
+
 #lol2{
   height: 269px;
   width: 438px;
   margin-top: 63px;
   margin-left: 80px;
-   
 }
+
 #detalles{
   margin-left: 70px;
 }
+
 #sabores{
   margin-left: 78px;
   height: 291px;
   width: 286px;
   margin-top: 27px;
 }
+
 #vitrina{
   height: 291px;
   width: 286px;
@@ -173,7 +186,7 @@
  
  .swing-in-left-bck {
 	-webkit-animation: swing-in-left-bck 2.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-	        animation: swing-in-left-bck 2.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	 animation: swing-in-left-bck 2.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 }
 
  @-webkit-keyframes swing-in-left-bck {
@@ -194,11 +207,10 @@
 } 
 .roll-in-right {
 	-webkit-animation: roll-in-right 1s ease-out both;
-	        animation: roll-in-right 1s ease-out both;
+	animation: roll-in-right 1s ease-out both;
 }
 
-
- @-webkit-keyframes roll-in-right {
+@-webkit-keyframes roll-in-right {
   0% {
     -webkit-transform: translateX(800px) rotate(540deg);
             transform: translateX(800px) rotate(540deg);
@@ -210,21 +222,13 @@
     opacity: 1;
   }
 }
+
 .scale-in-ver-bottom {
 	-webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-/* ----------------------------------------------
- * Generated by Animista on 2019-4-1 18:23:23
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
 
-/**
- * ----------------------------------------
- * animation scale-in-ver-bottom
- * ----------------------------------------
- */
- @-webkit-keyframes scale-in-ver-bottom {
+@-webkit-keyframes scale-in-ver-bottom {
   0% {
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
@@ -240,6 +244,7 @@
     opacity: 1;
   }
 }
+
 @keyframes scale-in-ver-bottom {
   0% {
     -webkit-transform: scaleY(0);
@@ -255,4 +260,42 @@
             transform-origin: 0% 100%;
     opacity: 1;
   }
+}
+
+.writer {
+  font-family: 'Bree Serif', serif;
+  /* display: inline-block; */
+  color: white;
+  margin-top: -29%;
+  margin-left: 8%;
+}
+
+.writerTitle{
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	  animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 50px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
 }
