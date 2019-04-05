@@ -155,29 +155,19 @@
   text-align: center;
 }
 
-#lol2{
-  height: 269px;
+#imgCard{
+  /* height: 269px;
   width: 438px;
   margin-top: 63px;
-  margin-left: 80px;
+  margin-left: 80px; */
+  height: 399px;
+  width: 299px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 #detalles{
   margin-left: 70px;
-}
-
-#sabores{
-  margin-left: 78px;
-  height: 291px;
-  width: 286px;
-  margin-top: 27px;
-}
-
-#vitrina{
-  height: 291px;
-  width: 286px;
-  margin-top: 27px;
-  margin-left: 68%;
 }
 
 .animated.infinite.flash  {
@@ -269,7 +259,7 @@
   margin-top: -35%;
   font-size: 300%;
   margin-left: -10%;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Bree Serif', serif;
 }
 .iam p {
   height: 50px;
@@ -347,5 +337,177 @@
     60% { top: -150px; }
     80% { top: -200px; }
 }
+.card{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  top:20%;
+  transform-style: preserve-3d;
+  transform: translate(20%,10%) perspective(2000px);
+  box-shadow: inset 300px 0 50px rgb(0, 0,0,.5), 0 20px 100px rgb(0, 0,0,.5);
+  transition: 1s;
+  
+}
+.card:hover{
+  transform: translate(20%,10%) perspective(2000px) rotate(-10deg);
+  box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
+}
+.card:before{
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 5px;
+  top:-5px;
+  left:0;
+  background-color: #9C865A;
+  transform-origin: bottom;
+  transform: skewX(-45deg)
+}
 
+.card:after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height:399px;
+  right: -4px;
+  top:0;
+  background-color: black;
+  transform-origin: left;
+  transform: skewY(-45deg)
+}
+.card .imBox{
 
+ position: relative;
+  width: 100px;
+  height:100px;
+  transform-origin: left;
+  transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+.card:hover .imBox{
+
+  transform: rotateY(-135deg)
+}
+.card2{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  top:20%;
+  transform-style: preserve-3d;
+  transform: translate(160%,10%) perspective(2000px);
+  box-shadow: inset 300px 0 50px rgb(0, 0,0,.5), 0 20px 100px rgb(0, 0,0,.5);
+  transition: 1s;
+  
+}
+.card2:hover{
+  transform: translate(160%,10%) perspective(2000px) rotate(15deg);
+  box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
+}
+.card2:before{
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 5px;
+  top:-5px;
+  left:0;
+  background-color: #9C865A;
+  transform-origin: bottom;
+  transform: skewX(-45deg)
+}
+
+.card2:after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height:399px;
+  right: -4px;
+  top:0;
+  background-color: black;
+  transform-origin: left;
+  transform: skewY(-45deg)
+}
+.card2 .imBox2{
+
+ position: relative;
+  width: 100px;
+  height:100px;
+  transform-origin: left;
+  transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+.card2:hover .imBox2{
+
+  transform: rotateY(-135deg)
+}
+.card3{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  top:20%;
+  transform-style: preserve-3d;
+  transform: translate(300%,10%) perspective(2000px);
+  box-shadow: inset 300px 0 50px rgb(0, 0,0,.5), 0 20px 100px rgb(0, 0,0,.5);
+  transition: 1s;
+  
+}
+.card3:hover{
+  transform: translate(300%,10%) perspective(2000px) rotate(-10deg);
+  box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
+}
+.card3:before{
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 5px;
+  top:-5px;
+  left:0;
+  background-color: rgb(209, 30, 7);
+  transform-origin: bottom;
+  transform: skewX(-45deg)
+}
+
+.card3:after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height:399px;
+  right: -4px;
+  top:0;
+  background-color:white;
+  transform-origin: left;
+  transform: skewY(-45deg)
+}
+.card3 .imBox3{
+
+ position: relative;
+  width: 100px;
+  height:100px;
+  transform-origin: left;
+  transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+.card3:hover .imBox3{
+
+  transform: rotateY(-135deg)
+}
+#idDetail{
+  margin-left: 10px;
+  margin-top: -25%;
+  text-align: center;
+}
+#idP{
+  margin-top: 5%;
+}
+
+#iconBook{
+margin-top: 25%;
+font-size: 150%;
+margin-left: 200px;
+color: black;
+}
+#iconBook2{
+  margin-top: 25%;
+  font-size: 150%;
+  margin-left: 20px;
+  color: black;
+}

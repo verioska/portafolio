@@ -159,6 +159,41 @@
   margin-right: 18px;
   padding-top: 5%;
 }
+#me{
+  display: none;
+}
+
+.scale-in-ver-center {
+	-webkit-animation: scale-in-ver-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-ver-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+
 .iam {
   padding: 2em 5em;
   font: normal 40px/50px Montserrat;
@@ -245,9 +280,10 @@
     80% { top: -200px; }
 }
 
-  #section1,#section2,#section3,#section4,#section5{
+  #section1,#section2,#section3,#section5{
     padding-top: 178%;
   }
+
   #section1{
     background: url(yo1.png) ;
     background-size: cover; 
@@ -265,12 +301,23 @@
     opacity:1.0;
    
   }
-  .skills,.projects,.contact{
+
+  #section4{
+    padding-top: 384%;
+  }
+  .skills,.contact{
     
     font-size: 1.9em;
     color:white;
     margin-top: -590px;
     text-align: center;
+}
+.projects{
+  font-size: 1.9em;
+  color:white;
+  margin-top: -1331px;
+  text-align: center;
+
 }
 #info{
   font-size: 1.9em;
@@ -295,5 +342,185 @@
   margin-top:63px;
   text-align: center;
 }
+.card{
+  position: absolute;
+  width: 262px;
+  height: 350px;
+  background-color: azure;
+  top:20%;
+  transform-style: preserve-3d;
+  transform: translate(19%,10%) perspective(2000px);
+  box-shadow: inset 300px 0 50px rgb(0, 0,0,.5), 0 20px 100px rgb(0, 0,0,.5);
+  transition: 1s;
+  
+}
+.card:hover{
+  transform: translate(19%,10%) perspective(2000px) rotate(-10deg);
+  box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
+}
+.card:before {
+  content: '';
+  position: absolute;
+  width: 261px;
+  height: 5px;
+  top: -5px;
+  left: 0;
+  background-color: #9C865A;
+  transform-origin: bottom;
+  transform: skewX(-45deg);
+}
+.card:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 350px;
+  right: -4px;
+  top: 0;
+  background-color: black;
+  transform-origin: left;
+  transform: skewY(-45deg);
+}
+.card .imBox{
+
+ position: relative;
+  width: 100px;
+  height:100px;
+  transform-origin: left;
+  transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+.card:hover .imBox{
+
+  transform: rotateY(-135deg)
+}
+.card2{
+  position: absolute;
+  width: 262px;
+  height: 350px;
+  background-color: azure;
+  top: 79%;
+  transform-style: preserve-3d;
+  transform: translate(19%,10%) perspective(2000px);
+  box-shadow: inset 300px 0 50px rgb(0, 0,0,.5), 0 20px 100px rgb(0, 0,0,.5);
+  transition: 1s;
+  
+}
+.card2:hover{
+  transform: translate(19%,10%) perspective(2000px) rotate(15deg);
+  box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
+}
+.card2:before{
+  content: '';
+  position: absolute;
+  width: 261px;
+  height: 5px;
+  top:-5px;
+  left:0;
+  background-color: #9C865A;
+  transform-origin: bottom;
+  transform: skewX(-45deg)
+}
+
+.card2:after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 350px;
+  right: -4px;
+  top:0;
+  background-color: black;
+  transform-origin: left;
+  transform: skewY(-45deg)
+}
+.card2 .imBox2{
+
+ position: relative;
+  width: 100px;
+  height:100px;
+  transform-origin: left;
+  transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+.card2:hover .imBox2{
+
+  transform: rotateY(-135deg)
+}
+.card3{
+  position: absolute;
+  width: 262px;
+  height: 350px;
+  background-color: azure;
+  top:138%;
+  transform-style: preserve-3d;
+  transform: translate(19%,10%) perspective(2000px);
+  box-shadow: inset 300px 0 50px rgb(0, 0,0,.5), 0 20px 100px rgb(0, 0,0,.5);
+  transition: 1s;
+  
+}
+.card3:hover{
+  transform: translate(19%,10%) perspective(2000px) rotate(-10deg);
+  box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
+}
+.card3:before{
+  content: '';
+  position: absolute;
+  width: 261px;
+  height: 5px;
+  top:-5px;
+  left:0;
+  background-color: rgb(209, 30, 7);
+  transform-origin: bottom;
+  transform: skewX(-45deg)
+}
+
+.card3:after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 350px;
+  right: -4px;
+  top:0;
+  background-color:white;
+  transform-origin: left;
+  transform: skewY(-45deg)
+}
+.card3 .imBox3{
+
+ position: relative;
+  width: 100px;
+  height:100px;
+  transform-origin: left;
+  transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+.card3:hover .imBox3{
+
+  transform: rotateY(-135deg)
+}
+#idDetail{
+  margin-left: 10px;
+  margin-top: -25%;
+  text-align: center;
+}
+
+#idP{
+  margin-top: 5%;
+}
+
+#iconBook {
+  margin-top: -9%;
+  font-size: 230%;
+  margin-left: 157px;
+  color: black;
+}
+#iconBook2 {
+  margin-top: -1%;
+  font-size: 230%;
+  margin-left: 20px;
+  color: black;
+}
+#imgCard {
+  height: 350px;
+  width: 261px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
  
-  }
+}
