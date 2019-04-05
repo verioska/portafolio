@@ -62,5 +62,36 @@ document.getElementById("mail").addEventListener("click", function(){
     document.getElementById("section3").style.display="none";
 })
 
+let imagen=['lol1.png','vitrina2.png']
+cont=0
+function carousel(contenedor){
 
+    contenedor.addEventListener('click', e=>{
+    let atras=contenedor.querySelector('.atras');
+   let  adelante=contenedor.querySelector('.adelante');
+   let  img=contenedor.querySelector('#imagen1');
+    let tgt=e.target;
+
+    if(tgt===atras){
+       if(cont>0){
+           img.src=imagen[cont-1];
+           cont--;
+
+       }else{
+        img.src=imagen[imagen.length-1];
+        cont=imagen.length-1;
+       }
+
+    }else if(tgt===adelante){
+        if(cont<imagen.length -1){
+            img.src=imagen[cont+1];
+            cont++;
+ 
+        }else{
+         img.src=imagen[0];
+         cont=0;
+        }
+    }
+    })
+}
 
