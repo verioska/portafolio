@@ -143,13 +143,14 @@
 }
 
 #bar{
-   font-size: 30px;
+    font-size: 30px;
     color: white;
     position: absolute;
-    top: 14px;
-    Left: 8px;
+    top: 9px;
+    Left: 11px;
     transition: 1s;
     z-index: 3;
+
 }
 
 #infoMe{

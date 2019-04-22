@@ -27,7 +27,7 @@
 }
 
 #section2 {
-  background: url(fondo.jpeg);
+  background: url(fondo.jpeg) no-repeat;
   opacity:0.8;
 }
   
@@ -73,16 +73,18 @@
   left:1115px;
   right: 0;
   z-index: 3;
+  cursor: pointer;
 }
 
 #bar{
   font-size: 21px;
   position: absolute;
-  top: 13px;
-  Left: 11px;
+  top: 15px;
+  Left: 16px;
   transition: 1s;
-  width: -48px;
-  width: 28px;
+  width: 35px;
+  cursor: pointer;
+  color: white;
 }
 
 .menu{
@@ -148,6 +150,10 @@
     text-align: center;
 }
 
+#idSkills{
+  font-size: 30px;
+}
+
 #iconContact{
   color:white;
   font-size:100px;
@@ -156,10 +162,6 @@
 }
 
 #imgCard{
-  /* height: 269px;
-  width: 438px;
-  margin-top: 63px;
-  margin-left: 80px; */
   height: 399px;
   width: 299px;
   margin-top: 0px;
@@ -349,10 +351,12 @@
   transition: 1s;
   
 }
+
 .card:hover{
   transform: translate(20%,10%) perspective(2000px) rotate(-10deg);
   box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
 }
+
 .card:before{
   content: '';
   position: absolute;
@@ -376,18 +380,18 @@
   transform-origin: left;
   transform: skewY(-45deg)
 }
-.card .imBox{
 
- position: relative;
+.card .imBox{
+  position: relative;
   width: 100px;
   height:100px;
   transform-origin: left;
   transition: 1s cubic-bezier(.15,1.7,.84,.58);
 }
 .card:hover .imBox{
-
   transform: rotateY(-135deg)
 }
+
 .card2{
   position: absolute;
   width: 300px;
@@ -400,10 +404,12 @@
   transition: 1s;
   
 }
+
 .card2:hover{
   transform: translate(160%,10%) perspective(2000px) rotate(15deg);
   box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
 }
+
 .card2:before{
   content: '';
   position: absolute;
@@ -427,18 +433,19 @@
   transform-origin: left;
   transform: skewY(-45deg)
 }
-.card2 .imBox2{
 
- position: relative;
+.card2 .imBox2{
+  position: relative;
   width: 100px;
   height:100px;
   transform-origin: left;
   transition: 1s cubic-bezier(.15,1.7,.84,.58);
 }
-.card2:hover .imBox2{
 
+.card2:hover .imBox2{
   transform: rotateY(-135deg)
 }
+
 .card3{
   position: absolute;
   width: 300px;
@@ -451,10 +458,12 @@
   transition: 1s;
   
 }
+
 .card3:hover{
   transform: translate(300%,10%) perspective(2000px) rotate(-10deg);
   box-shadow: inset 20px 0 50px rgb(0, 0,0,.5), 0 10px 100px rgb(0, 0,0,.5);
 }
+
 .card3:before{
   content: '';
   position: absolute;
